@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "tag": "bca_info",
+      "patterns": ["Tell me about your BCA", "Where did you do your BCA?", "Your BCA details", "BCA college and year", "bca"],
+      "responses": ["I completed my **BCA (Bachelor of Computer Applications)** from **CHRIST ARTS, SCIENCE & COMMERCE COLLEGE, RAJKOT** from **2020 to 2023**."]
+    },
+    {
+      "tag": "mca_info",
+      "patterns": ["Tell me about your MCA", "Where did you do your MCA?", "Your MCA details", "MCA college and year", "mca"],
+      "responses": ["I am currently pursuing my **MCA (Master of Computer Applications)** at **Marwadi University, Rajkot** from **2023 to 2025**."]
+    },
+    {
+      "tag": "who_is_yugen",
+      "patterns": ["who are you?", "who is yugen?", "tell me about yugen", "what do you do?", "who created this chatbot?", "yugen", "who create you", "who create this ai", "you created by who", "who do you think creates you","Yugen created you"],
+      "responses": ["I'm Yugen, a Master of Computer Applications (MCA) student with a strong passion for programming. I specialize in Python and have experience in API integration, data visualization, machine learning, and AI chatbots.",
+        "I'm Yugen, an aspiring software developer with expertise in Python, Flask, and machine learning. I'm also interested in anime and content creation.",
+        "This chatbot was created by Yugen, an MCA student currently working on various programming projects, including AI-based applications."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "greetings", "good day", "what's up", "is anyone there?"],
+      "responses": ["Hello!", "Hey there! How can I assist you?", "Hi, what would you like to know?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "cya", "i am leaving", "have a good day"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "how",
+      "patterns": ["how are you?", "how is your day?", "how do you feel?", "are you good?"],
+      "responses": ["I'm just a bot, but I'm doing great! How about you?", "I feel fantastic! Thanks for asking!"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": []
+    }
+  ]
+}
